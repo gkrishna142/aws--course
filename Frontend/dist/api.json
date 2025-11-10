@@ -1,0 +1,42 @@
+{
+    "auth": {
+        "login": "/api/auth/login/",
+        "getProfile": "/api/auth/profile/",
+        "logout": "/api/auth/logout/",
+        "refreshToken": "/api/auth/token/refresh/"
+    },
+    "teacher": {
+        "teacherList": "/api/auth/admin/teachers/",
+        "registerTeacher": "/api/auth/register/teacher"
+    },
+     "student":{
+        "studentList":"/api/auth/admin/students/"
+    },
+    "payment": {
+        "paymentList": "/api/courses/payments/all/"
+    },
+    "courses": {
+        "coursesList": "/api/courses"
+    },
+
+
+
+
+    "barchart": {
+        "studentCount": "/api/courses/courses/student-count/"
+    },
+    "payments": {
+        "transactionsReport": "/api/payments/transactions/report/"
+    },
+    "users": {
+        "statusCount": "/api/auth/users/status-count/"
+    },
+    "students": {
+        "unenrolled": "/api/auth/students/not-enrolled/"
+    },
+     "calculator":{
+        "price": "/api/courses/courses/pricing/create/"
+
+     }
+
+}
